@@ -2,11 +2,7 @@
 #define INTERSECTION_H
 
 typedef struct {
-    int west;
-    int north;
-    int south;
-    int east;
-    int car;
+    int position[2];
     int semaphore;
 } Intersection;
 

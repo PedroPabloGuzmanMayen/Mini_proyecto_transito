@@ -2,12 +2,9 @@
 #define SEMAPHORE_H
 
 typedef struct {
-    int id;
-    int postion[2];
-    int right;
-    int left;
-    int up;
-    int down;
+    int verticial_state;
+    int horizontal_state;
+    int remaining_time;
 
 } Semaphore;
 

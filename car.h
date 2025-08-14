@@ -3,10 +3,10 @@
 #define CAR_H
 
 typedef struct {
-    int id;
     int velocity;
-    int position[2];
-    int direction;
+    int position;
+    int direction;  // 0 si es horizontal, 1 si es vertical
+    int semaphore_id;  //Semáforo más cercano
 
 } Car;
 
